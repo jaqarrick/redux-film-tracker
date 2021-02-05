@@ -3,13 +3,26 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Redex Lab</title>
+		<title> Film Tracker </title>
+		<style>
+			#display {
+				display: flex;
+			}
+
+			.film-block {
+				margin: 1rem;
+				border: solid blue 1px;
+			}
+		</style>
 	</head>
 	<body>
-		<h1>Counter</h1>
+		<h1>Add a film to your watch list!</h1>
+		<form>
+			<input type="text" id="title" placeholder="Film Title" />
+			<submit></submit>
+		</form>
 		<button id="increment">+</button>
-		<button id="decrement">-</button>
-		<input type="text" id="count" placeholder="0" />
+		<div id="display"></div>
 		<script src="./index.js"></script>
 	</body>
 </html>

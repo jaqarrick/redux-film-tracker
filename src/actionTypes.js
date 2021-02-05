@@ -1,2 +1,2 @@
-export const COUNT_INCREMENTED = "countIncremented"
-export const COUNT_DECREMENTED = "countDecremented"
+export const ADD_FILM = "addFilm"
+export const REMOVE_FILM = "removeFilm"
